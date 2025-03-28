@@ -1,4 +1,4 @@
-package co.realfit.agdkegui;
+package re.nel.mycelia;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.WindowCompat;
