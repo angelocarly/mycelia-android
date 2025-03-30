@@ -18,6 +18,10 @@ Cargo.lock
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
 
+# Android files
+android/java/app/build/
+local.properties
+jniLibs
 
 # Added by cargo
 
