@@ -1,0 +1,16 @@
+[package]
+name = "android"
+version.workspace = true
+edition = "2021"
+publish = false
+
+[dependencies]
+log = "0.4"
+android_logger = "0.14"
+eframe.workspace = true
+egui-winit = "0.30"
+demo = { path = "../../demo" }
+
+[lib]
+name = "main"
+crate-type = ["cdylib"]

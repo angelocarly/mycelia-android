@@ -1,0 +1,9 @@
+[package]
+name = "demo"
+edition = "2021"
+version.workspace = true
+publish = false
+
+[dependencies]
+eframe.workspace = true
+egui_keyboard = "0.1.0"
