@@ -6,6 +6,6 @@ publish = false
 default-run = "demo_native"
 
 [dependencies]
-demo = { path = "../demo" }
+core = { path = "../core" }
 eframe.workspace = true
 env_logger = "0.11"

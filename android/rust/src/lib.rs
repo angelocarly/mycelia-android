@@ -16,7 +16,7 @@ fn android_main(
     eframe::run_native(
         "egui keyboard demo",
         options,
-        Box::new(|_| Ok(Box::new(demo::MyApp::default()))),
+        Box::new(|_| Ok(Box::new(core::MyApp::default()))),
     )?;
 
     Ok(())

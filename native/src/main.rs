@@ -1,4 +1,4 @@
-use demo::MyApp;
+use core::MyApp;
 
 fn main() -> Result<(), eframe::Error> {
     env_logger::init();
